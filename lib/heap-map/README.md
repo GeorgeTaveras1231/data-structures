@@ -60,6 +60,7 @@ Leaderboard.prototype.reset = function(playerId) {
 ##### Runtime
 
 | method | time | space |
+|--------|------|-------|
 | `addScore(_, _)` | `O(logN)` | - |
 | `reset(_)` | `O(logN)` | - |
 | `top(K)` | `O(KlogN)` | - |
