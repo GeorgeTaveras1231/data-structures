@@ -1,0 +1,6 @@
+{
+  "name": "heap-map",
+  "version": "0.1.0",
+  "files": ["HeapMap.js"],
+  "type": "module"
+}

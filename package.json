@@ -1,0 +1,15 @@
+{
+  "name": "datastructures",
+  "packageManager": "yarn@3.2.4",
+  "type": "module",
+  "private": true,
+  "workspaces": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "NODE_OPTIONS=\"--experimental-vm-modules $NODE_OPTIONS\" jest"
+  },
+  "devDependencies": {
+    "jest": "^29.1.2"
+  }
+}
